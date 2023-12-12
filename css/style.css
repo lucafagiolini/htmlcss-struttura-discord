@@ -2,6 +2,46 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+
 }
 
 /* reset */
+
+body {
+    min-width: 1000px;
+
+    /* test */
+    background-color: #444851;
+}
+
+main {
+    height: 100%;
+
+    /* test */
+    /* background-color: #ec5044; */
+}
+
+/* banner */
+.banner {
+    display: block;
+
+    background-color: #add8e6;
+}
+
+.banner .banner-content {
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #daa521;
+
+}
+
+.banner .content-left {}
+
+.banner .content-center {}
+
+.banner .content-right {}
