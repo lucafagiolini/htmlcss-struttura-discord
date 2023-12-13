@@ -158,3 +158,71 @@ main {
     border: 1px solid black;
     border-style: dashed;
 }
+
+/* end grid 1 */
+
+/* grid 2 */
+.grid-2 {
+    display: flex;
+    background-color: #d3d3d3;
+}
+
+.grid-2 .light-blue-body-2 {
+    width: 750px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #1d90ff;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.grid-2 .pink-body-2 {
+    width: 500px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #ffc0cb;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/* end grid 2 */
+
+/* grid 3 */
+.grid-3 {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.grid-3 .light-blue-body-3 {
+    width: 750px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #1d90ff;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.grid-3 .pink-body-3 {
+    width: 500px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #ffc0cb;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
