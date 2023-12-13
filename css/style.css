@@ -34,6 +34,11 @@ main {
     padding-right: 275px;
 }
 
+.flat-vertical-space {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
 .navbar .navbar-content {
     height: 72px;
 
@@ -103,19 +108,51 @@ main {
     justify-content: center;
     align-content: center;
 
-    padding-top: 45px;
-    padding-bottom: 45px;
-
     background-color: #00008b;
 }
 
-.hero-body {
+.hero-container .hero-body {
     width: 945px;
     height: 415px;
 
-    flex-basis: 50%;
+    flex-basis: auto;
 
     background-color: #ee82ee;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/* end hero container */
+
+/* grid 1 */
+
+.grid-1 {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.grid-1 .light-blue-body {
+    width: 750px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #1d90ff;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.grid-1 .pink-body {
+    width: 500px;
+    height: 520px;
+
+    flex-basis: auto;
+
+    background-color: #ffc0cb;
 
     /* test */
     border: 1px solid black;
