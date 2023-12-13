@@ -113,5 +113,11 @@ main {
     width: 945px;
     height: 415px;
 
+    flex-basis: 50%;
+
     background-color: #ee82ee;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
 }
