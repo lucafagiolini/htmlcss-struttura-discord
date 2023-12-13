@@ -22,18 +22,20 @@ main {
     /* background-color: #ec5044; */
 }
 
-/* banner */
+/* navbar */
 .navbar {
     display: block;
 
     background-color: #add8e6;
 }
 
+.flat-side-size {
+    padding-left: 275px;
+    padding-right: 275px;
+}
+
 .navbar .navbar-content {
     height: 72px;
-    padding-left: 370px;
-    padding-right: 370px;
-
 
     display: flex;
     align-items: center;
@@ -90,4 +92,26 @@ main {
     /* test */
     border: 1px solid black;
     border-style: dashed;
+}
+
+/* end navbar */
+
+/* hero-container */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    background-color: #00008b;
+}
+
+.hero-body {
+    width: 945px;
+    height: 415px;
+
+    background-color: #ee82ee;
 }
