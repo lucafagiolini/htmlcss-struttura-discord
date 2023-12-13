@@ -249,3 +249,81 @@ main {
 }
 
 /* end grid 4 */
+
+/* grid 5 */
+.grid-5 {
+    display: flex;
+
+    padding-top: 15px;
+    padding-bottom: 42px;
+
+    background-color: #23272a;
+}
+
+.grid-5 .dark-pink-body {
+    width: 370px;
+    height: 600px;
+
+    flex-basis: auto;
+
+    background-color: #f08080;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.grid-5 .acquamarina-body {
+    width: 870px;
+    height: 600px;
+
+    display: flex;
+    align-items: stretch;
+
+    background-color: #1eb2aa;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+
+}
+
+.grid-5 .acquamarina-body .column-body-1 {
+    width: 25%px;
+
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+.grid-5 .acquamarina-body .column-body-2 {
+    width: 25%;
+
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+.grid-5 .acquamarina-body .column-body-3 {
+    width: 25%;
+
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+.grid-5 .acquamarina-body .column-body-4 {
+    width: 25%px;
+
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+
+
+/* end grid 5 */
