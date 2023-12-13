@@ -23,25 +23,71 @@ main {
 }
 
 /* banner */
-.banner {
+.navbar {
     display: block;
 
     background-color: #add8e6;
 }
 
-.banner .banner-content {
+.navbar .navbar-content {
     height: 72px;
+    padding-left: 370px;
+    padding-right: 370px;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navbar .content-left {
+    height: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 25%;
 
     background-color: #daa521;
 
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
 }
 
-.banner .content-left {}
+.navbar .content-center {
+    height: 30px;
 
-.banner .content-center {}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-basis: 50%;
 
-.banner .content-right {}
+    background-color: #daa521;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+
+.navbar .content-right {
+    height: 30px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+    background-color: #daa521;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
