@@ -226,3 +226,26 @@ main {
     border: 1px solid black;
     border-style: dashed;
 }
+
+/* end grid 3 */
+
+/* grid 4 */
+.grid-4 {
+    display: flex;
+    background-color: #d3d3d3;
+}
+
+.grid-4 .green-body {
+    width: 1250px;
+    height: 935px;
+
+    flex-basis: auto;
+
+    background-color: #238b21;
+
+    /* test */
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/* end grid 4 */
