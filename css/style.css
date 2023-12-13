@@ -111,10 +111,13 @@ nav .content-right {
 /* end hero container */
 
 /* grid 1 */
+.bg-white {
+    background-color: #ffffff;
+}
 
 .grid-1 {
     display: flex;
-    background-color: #ffffff;
+
 }
 
 .grid-1 .light-blue-body {
@@ -129,10 +132,8 @@ nav .content-right {
 }
 
 .grid-1 .pink-body {
-    width: 500px;
-    height: 520px;
-
-    flex-basis: auto;
+    width: 400px;
+    height: 400px;
 
     background-color: #ffc0cb;
 
@@ -144,9 +145,12 @@ nav .content-right {
 /* end grid 1 */
 
 /* grid 2 */
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
 .grid-2 {
     display: flex;
-    background-color: #d3d3d3;
 }
 
 .grid-2 .light-blue-body-2 {
@@ -162,10 +166,8 @@ nav .content-right {
 }
 
 .grid-2 .pink-body-2 {
-    width: 500px;
-    height: 520px;
-
-    flex-basis: auto;
+    width: 400px;
+    height: 400px;
 
     background-color: #ffc0cb;
 
@@ -194,10 +196,8 @@ nav .content-right {
 }
 
 .grid-3 .pink-body-3 {
-    width: 500px;
-    height: 520px;
-
-    flex-basis: auto;
+    width: 400px;
+    height: 400px;
 
     background-color: #ffc0cb;
 
