@@ -55,6 +55,7 @@ nav .content-left {
 }
 
 nav .content-center {
+    min-width: 800px;
     flex-grow: 1;
 }
 
@@ -64,14 +65,8 @@ nav .content-center ul {
     list-style-type: none;
     gap: 12px;
 
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
-li {
-    list-style-type: none;
-}
 
 nav .content-right {
     width: 100px;
@@ -90,6 +85,7 @@ nav .content-right {
 /* hero-container */
 
 .hero-container {
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -98,13 +94,15 @@ nav .content-right {
 }
 
 .hero-container .hero-body {
-    width: 945px;
+    max-width: 800px;
     height: 415px;
 
-    flex-basis: auto;
+    flex-grow: 1;
+
+    margin-left: auto;
+    margin-right: auto;
 
     background-color: #ee82ee;
-
     /* test */
     border: 1px solid black;
     border-style: dashed;
@@ -121,7 +119,7 @@ nav .content-right {
 
 .grid-1 .light-blue-body {
     flex-grow: 1;
-    flex-basis: auto;
+
 
     background-color: #1d90ff;
 
