@@ -48,6 +48,17 @@ body {
     border-radius: 25px;
 }
 
+.btn-medium {
+    align-items: center;
+
+    padding: 8px 20px;
+
+    background-color: #8ea1e1;
+    color: white;
+
+    font-size: 0.8em;
+}
+
 .btn-dark {
     display: flex;
 
@@ -235,7 +246,7 @@ section h2 {
 
 /* grid 2 */
 .bg-gray {
-    background-color: #d3d3d3;
+    #f7f7f7
 }
 
 .grid-2 {
@@ -293,22 +304,29 @@ section h2 {
 
 /* grid 4 */
 .grid-4 {
-    display: flex;
-    background-color: #d3d3d3;
+    text-align: center;
 }
 
 .grid-4 .green-body {
-    height: 600px;
-
     flex-grow: 1;
+}
 
-    flex-basis: auto;
+.grid-4 .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    background-color: #238b21;
+.grid-4 .cta .cta-text {
 
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
+    padding: 18px 40px 38px;
+
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-size: 1.4em;
+    font-family: 'Whitney Bold', sans-serif;
 }
 
 /* end grid 4 */
