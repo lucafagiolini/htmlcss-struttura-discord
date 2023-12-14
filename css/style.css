@@ -267,29 +267,17 @@ section h2 {
 /* grid 3 */
 .grid-3 {
     display: flex;
-    background-color: #ffffff;
 }
 
 .grid-3 .light-blue-body-3 {
     flex-grow: 1;
-    flex-basis: auto;
 
-    background-color: #1d90ff;
-
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
 .grid-3 .pink-body-3 {
     width: 400px;
     height: 400px;
 
-    background-color: #ffc0cb;
-
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
 /* end grid 3 */
