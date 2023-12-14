@@ -221,12 +221,17 @@ section h2 {
     width: 400px;
     height: 400px;
 
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
 /* end grid 1 */
+
+
+
+
+
+
+
+
 
 /* grid 2 */
 .bg-gray {
@@ -240,27 +245,24 @@ section h2 {
 .grid-2 .light-blue-body-2 {
     flex-grow: 1;
 
-    flex-basis: auto;
-
-    background-color: #1d90ff;
-
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
 .grid-2 .pink-body-2 {
     width: 400px;
     height: 400px;
-
-    background-color: #ffc0cb;
-
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
 }
 
 /* end grid 2 */
+
+
+
+
+
+
+
+
+
+
 
 /* grid 3 */
 .grid-3 {
@@ -292,6 +294,15 @@ section h2 {
 
 /* end grid 3 */
 
+
+
+
+
+
+
+
+
+
 /* grid 4 */
 .grid-4 {
     display: flex;
@@ -313,6 +324,15 @@ section h2 {
 }
 
 /* end grid 4 */
+
+
+
+
+
+
+
+
+
 
 /* footer top */
 
