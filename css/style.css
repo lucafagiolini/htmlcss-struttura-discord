@@ -341,8 +341,7 @@ section h2 {
 
 
 /* footer top */
-
-.row {
+.bg-dark-gray .row {
     display: flex;
 }
 
@@ -351,70 +350,81 @@ section h2 {
 }
 
 footer {
-
-    padding-top: 15px;
-
-
-    background-color: #23272a;
+    padding-top: 45px;
 }
 
-#footer-top {
-    margin-bottom: 45px;
+footer #footer-top {
+    padding-bottom: 30px;
+
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid #728bdb7b;
 }
 
-footer #footer-top .dark-pink-body {
-    height: 500px;
+footer #footer-top h2,
+footer #footer-top h5 {
+    color: #7289da;
+}
+
+
+footer #footer-top h2 {
+    margin-bottom: 1em;
+}
+
+footer #footer-top .footer-links {
     width: 250px;
+    margin-right: 100px;
+}
 
-    background-color: #f08080;
+footer #footer-top .language-selector {
+    color: white;
+    margin-bottom: 20px;
+}
 
-    /* test */
-    border: 1px solid black;
-    border-style: dashed;
+footer #footer-top .language-selector img {
+    height: 1em;
+}
 
+footer #footer-top .language-selector .fa {
+    font-size: 0.5em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+footer #footer-top .footer-links .icons {
+    display: flex;
+    gap: 20px;
 }
 
 
-footer #footer-top .acquamarina-bg {
-    background-color: #1eb2aa;
-}
+footer #footer-top .footer-column {
 
-footer #footer-top .column-body-1 {
     flex-grow: 1;
-
-    border: 1px solid white;
-    border-style: dashed;
-
 }
 
-footer #footer-top .column-body-2 {
-    flex-grow: 1;
-
-    border: 1px solid white;
-    border-style: dashed;
-
+footer #footer-top .footer-column h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
-footer #footer-top .column-body-3 {
-    flex-grow: 1;
+footer #footer-top .footer-column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-    border: 1px solid white;
-    border-style: dashed;
-
-}
-
-footer #footer-top .column-body-4 {
-    flex-grow: 1;
-
-    border: 1px solid white;
-    border-style: dashed;
-
+    list-style-type: none;
+    color: white;
 }
 
 /* end footer top */
+
+
+
+
+
+/* footer bottom */
+
 footer #footer-bottom {
-    background-color: #7fffd4;
-    /* test */
 
     margin-top: 16px;
 }
@@ -425,11 +435,5 @@ footer #footer-bottom {
     padding: 16px 0;
 }
 
-footer #footer-bottom>* {
-    background-color: #ffb6c1;
-    /* test */
 
-    padding: 4px 8px;
-}
-
-/* footer bottom  */
+/* end footer bottom */
