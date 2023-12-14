@@ -215,8 +215,9 @@ nav .content-right {
 }
 
 .grid-4 .green-body {
-    width: 1250px;
-    height: 935px;
+    height: 600px;
+
+    flex-grow: 1;
 
     flex-basis: auto;
 
@@ -229,74 +230,96 @@ nav .content-right {
 
 /* end grid 4 */
 
-/* grid 5 */
-.grid-5 {
+/* footer top */
+
+.row {
     display: flex;
+}
+
+.bg-dark-gray {
+    background-color: #23272a;
+}
+
+footer {
 
     padding-top: 15px;
-    padding-bottom: 42px;
+
 
     background-color: #23272a;
 }
 
-.grid-5 .dark-pink-body {
-    width: 370px;
-    height: 600px;
+#footer-top {
+    margin-bottom: 45px;
+}
 
-    flex-basis: auto;
+footer #footer-top .dark-pink-body {
+    height: 500px;
+    width: 250px;
 
     background-color: #f08080;
 
     /* test */
     border: 1px solid black;
     border-style: dashed;
+
 }
 
-.grid-5 .acquamarina-body {
-    flex-grow: 1;
 
-    display: flex;
-
+footer #footer-top .acquamarina-bg {
     background-color: #1eb2aa;
+}
 
+footer #footer-top .column-body-1 {
+    flex-grow: 1;
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+footer #footer-top .column-body-2 {
+    flex-grow: 1;
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+footer #footer-top .column-body-3 {
+    flex-grow: 1;
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+footer #footer-top .column-body-4 {
+    flex-grow: 1;
+
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+/* end footer top */
+footer #footer-bottom {
+    background-color: #7fffd4;
     /* test */
-    border: 1px solid black;
-    border-style: dashed;
 
+    margin-top: 16px;
 }
 
-.grid-5 .acquamarina-body .column-body-1 {
-    flex-grow: 1;
+footer #footer-bottom {
+    justify-content: space-between;
 
-    border: 1px solid white;
-    border-style: dashed;
-
+    padding: 16px 0;
 }
 
-.grid-5 .acquamarina-body .column-body-2 {
-    flex-grow: 1;
+footer #footer-bottom>* {
+    background-color: #ffb6c1;
+    /* test */
 
-    border: 1px solid white;
-    border-style: dashed;
-
+    padding: 4px 8px;
 }
 
-.grid-5 .acquamarina-body .column-body-3 {
-    flex-grow: 1;
-
-    border: 1px solid white;
-    border-style: dashed;
-
-}
-
-.grid-5 .acquamarina-body .column-body-4 {
-    flex-grow: 1;
-
-    border: 1px solid white;
-    border-style: dashed;
-
-}
-
-
-
-/* end grid 5 */
+/* footer bottom  */
