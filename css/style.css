@@ -329,6 +329,11 @@ section h2 {
     font-family: 'Whitney Bold', sans-serif;
 }
 
+i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 /* end grid 4 */
 
 
@@ -414,6 +419,11 @@ footer #footer-top .footer-column ul {
 
     list-style-type: none;
     color: white;
+}
+
+.icons {
+    color: white;
+    font-size: 25px;
 }
 
 /* end footer top */
